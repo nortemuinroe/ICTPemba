@@ -40,7 +40,7 @@ public class UtilizadorBean {
     public String addUtilizador(){
         this.utilizadorFacade.create(this.utilizador);
         this.utilizador = new Utilizador();
-        return "Index";
+        return "index";
     }
     
     public void delUtilizador(Utilizador u){
